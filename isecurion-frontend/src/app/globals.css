@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+/* @import "tailwindcss/preflight"; */
+/* @tailwind utilities;  */
+
+/* body {
+  @apply font-outfit;
+} */
+
+/* Hide scrollbar but allow scroll */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: none; /* Firefox */
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 3s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 8s linear infinite;
+}
+
+/* Top-to-bottom scroll */
+@keyframes scroll-reverse {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-scroll-reverse {
+  animation: scroll-reverse 8s linear infinite;
+}
+
+.perspective {
+  perspective: 1500px;
+}
+
+.mountain-text {
+  /* Apply your image directly */
+  /* background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="); */
+  background-color: #ff0000/25;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  line-height: 1;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE and Edge */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif, outfit;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* @keyframes rotateClockWise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.rotate-clockwise {
+  animation: rotateClockWise 10s  infinite;
+} */
+
+.rotate-clockwise {
+  transform-origin: center center;
+  animation: rotateMe 10s linear infinite;
+}
+
+@keyframes rotateMe {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 16s linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll 16s linear infinite reverse;
+}
+
+/* .no-scroll-body {
+  overflow: hidden !important;
+  This often resolves scroll jumping when the scrollbar disappears
+  padding-right: 17px; 
+} */
+
+@media (max-width: 1023px) {
+  .rtl-on-mobile {
+    direction: rtl;
+  }
+
+  .rtl-on-mobile > * {
+    direction: ltr;
+  }
+}
