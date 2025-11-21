@@ -5822,57 +5822,41 @@ const SERVICE_DATA = [
 
                 section: [
                   {
-                    icons: <Icon icon="uil:setting" width="24" height="24" />,
+                    icons: <Icon icon="grommet-icons:secure" width="36" height="36" />,
                     heading: "Secure SDLC Enablement",
                     p: "Integrate security controls, testing, and reviews into the development process.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="streamline:landscape-setting"
-                        width="14"
-                        height="14"
-                      />
+                      <Icon icon="fluent-mdl2:assessment-group-template" width="36" height="36" />
                     ),
                     heading: "Threat Modeling & Risk Assessment",
                     p: "Identify and prioritize risks across application components and APIs.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="majesticons:chart-line-area"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="fluent-mdl2:test-plan" width="36" height="36" />
                     ),
                     heading: "Static & Dynamic Testing (SAST/DAST)",
                     p: "Detect code-level and runtime vulnerabilities.",
                   },
                   {
                     icons: (
-                      <Icon icon="jam:triangle-danger" width="24" height="24" />
+                      <Icon icon="icon-park-outline:market-analysis" width="36" height="36" />
                     ),
                     heading: "Software Composition Analysis (SCA)",
                     p: "Identify and mitigate risks from open-source and third-party components.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="ant-design:search-outlined"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="flowbite:api-key-outline" width="36" height="36" />
                     ),
                     heading: "API Security Testing & Hardening",
                     p: "Evaluate and secure exposed APIs and microservices.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="fluent:document-one-page-20-regular"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="covid:vaccine-protection-people-shield" width="36" height="36" />
                     ),
                     heading: "Runtime Application Self-Protection",
                     p: "Enable real-time protection and anomaly detection in production.",
@@ -6216,28 +6200,28 @@ const SERVICE_DATA = [
 
             icons: [
               {
-                icon: <Icon icon="mingcute:lock-line" width="24" height="24" />,
+                icon: <Icon icon="carbon:ibm-watson-discovery" width="36" height="36" />,
                 iconheading: "Data Discovery & Classification",
                 icondiscription:
                   "Identify and categorize sensitive data across environments.",
               },
               {
                 icon: (
-                  <Icon icon="jam:triangle-danger" width="24" height="24" />
+                  <Icon icon="fluent-mdl2:encryption" width="36" height="36" />
                 ),
                 iconheading: "Access Control & Encryption",
                 icondiscription:
                   "Protect data at rest, in motion, and in use through encryption and access control.",
               },
               {
-                icon: <Icon icon="mingcute:lock-line" width="24" height="24" />,
+                icon: <Icon icon="icon-park-outline:data" width="36" height="36" />,
                 iconheading: "Data Loss Prevention (DLP)",
                 icondiscription:
                   "Prevent data exfiltration through automated DLP policies.",
               },
               {
                 icon: (
-                  <Icon icon="jam:triangle-danger" width="24" height="24" />
+                  <Icon icon="carbon:analytics" width="36" height="36" />
                 ),
                 iconheading: "Monitoring & Analytics",
                 icondiscription:
@@ -6245,7 +6229,7 @@ const SERVICE_DATA = [
               },
               {
                 icon: (
-                  <Icon icon="jam:triangle-danger" width="24" height="24" />
+                  <Icon icon="icon-park-outline:palace" width="36" height="36" />
                 ),
                 iconheading: "Governance & Compliance",
                 icondiscription:
@@ -6292,57 +6276,41 @@ const SERVICE_DATA = [
 
                 section: [
                   {
-                    icons: <Icon icon="uil:setting" width="24" height="24" />,
+                    icons: <Icon icon="carbon:ibm-watson-discovery" width="36" height="36" />,
                     heading: "Data Discovery & Classification",
                     p: "Identify, categorize, and label sensitive data across systems and clouds.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="streamline:landscape-setting"
-                        width="14"
-                        height="14"
-                      />
+                      <Icon icon="fluent-mdl2:encryption" width="36" height="36" />
                     ),
                     heading: "Encryption & Key Management",
                     p: "Implement data encryption, tokenization, and centralized key management.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="majesticons:chart-line-area"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="carbon:data-accessor" width="36" height="36" />
                     ),
                     heading: "Data Access Governance",
                     p: "Establish policies for least-privilege access and identity-based controls.",
                   },
                   {
                     icons: (
-                      <Icon icon="jam:triangle-danger" width="24" height="24" />
+                      <Icon icon="iconoir:database-xmark-solid" width="36" height="36" />
                     ),
                     heading: "Data Loss Prevention (DLP)",
                     p: "Configure and monitor DLP solutions to detect and prevent data exfiltration.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="ant-design:search-outlined"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="icon-park-outline:database-point" width="36" height="36" />
                     ),
                     heading: "Data Monitoring & Threat Detection",
                     p: "Integrate telemetry to monitor unusual access, movement, or sharing.",
                   },
                   {
                     icons: (
-                      <Icon
-                        icon="fluent:document-one-page-20-regular"
-                        width="24"
-                        height="24"
-                      />
+                      <Icon icon="fluent-mdl2:compliance-audit" width="36" height="36" />
                     ),
                     heading: "Compliance & Risk Alignment",
                     p: "Map controls to frameworks like GDPR, HIPAA, PCI DSS, and ISO 27001.",
